@@ -1,6 +1,6 @@
 '''
 Created on Dec 6, 2018
-CS229
+CS229 Fall 2018
 
 @author: suvmukhe mukherjee and minakshi mukherjee
 '''
