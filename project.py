@@ -40,7 +40,7 @@ def clean_dataset(df):
     return df[indices_to_keep].astype(np.float64)
 
 def elastic_net():
-    #https://scikit-learn.org/stable/auto_examples/linear_model/plot_lasso_and_elasticnet.html
+    #
     data = pd.read_excel('leave_one_out_results_linearregression.xlsx')#X_train.csv')#.head(150)
     data.columns = data.columns.to_series().apply(lambda x: x.strip())
     data= clean_dataset(data)
@@ -219,7 +219,7 @@ def plot_kmeans():
         ax.add_patch(plt.Circle(c, r, fc='#CCCCCC', lw=3, alpha=0.5, zorder=1))
     plt.show()  
 #not working
-#http://facweb.cs.depaul.edu/mobasher/classes/csc478/Notes/IPython%20Notebook%20-%20Regression.html
+#
 def linearRegression():
     # use this dataset: - leave_one_out_results_linearregression.xlsx
     #data = pd.read_csv('C:/tools/workspace/cs224wproject/project/X_train.csv')#X_train.csv')#.head(150)
