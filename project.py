@@ -453,11 +453,11 @@ def loaddata():
 
 if __name__ == '__main__':
     loaddata()
-    #linearRegression()
-    #kflod()
-    #ridge()
-    #methodcomparison()
-    #plot_kmeans()
-    #plot_gmm()
+    linearRegression()
+    kflod()
+    ridge()
+    methodcomparison()
+    plot_kmeans()
+    plot_gmm()
     em_gmm()
-    #elastic_net()
+    elastic_net()
